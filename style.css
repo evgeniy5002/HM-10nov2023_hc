@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+main {
+    height: 100vh;
+}
+
+video {
+    border-radius: 10px;
+}
+
+.container {
+    background-color: #0f0f0f;
+    display: flex;
+    padding: 30px;
+    height: 100%;
+}
+
+.current-video {
+    width: 880px;
+    display: block;
+    margin-right: 20px;
+}
+
+.related-videos .rv {
+    display: flex;
+}
+
+#mainVideo {
+    width: 880px;
+    margin-bottom: 20px;
+}
+
+#myVideo {
+    width: 180px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    z-index: -100;
+}
+
+.description-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-block span {
+    padding: 3px 0px;
+    margin-left: 10px;
+}
+
+.vtitle {
+    font-size: 1rem;
+    margin-bottom: 4px;
+    font-weight: 900;
+    color: white;
+}
+
+.vcategory,
+.views {
+    color: rgb(206, 206, 206);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.current-video__info {
+    color: white;
+}
+.current-video__info h2 {
+    font-size: 18px;
+}
+
+.interact-block {
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interact-block__left, .interact-block__right {
+    display: flex;
+    align-items: center;
+}
+
+.interact-block_channel_info {
+    display: flex;
+}
+
+.channel-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscribe {
+    margin-left: 15px;
+}
+
+.subscribe button, .share button {
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.reactions {
+    margin-right: 30px;
+}
+
+.reactions span {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 0px 5px;
+}
+
+.channel-description {
+    margin-left: 10px;
+}
+
+.channel-name {
+    color: white;
+}
+
+.channel-description span:nth-child(2) {
+    color: rgb(195, 195, 195);
+    font-size: 12px;
+}
+
+.current-video__description {
+    margin-top: 20px;
+    border-radius: 10px;
+    color: rgb(232, 232, 232);
+    background-color: #222;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
